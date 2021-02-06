@@ -1,0 +1,69 @@
+.sidebar-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    transition: all 0.3s;
+    background-color: #0c2934;
+    color: #ffffff;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding : 20px 0 20px 20px;
+}
+
+.sidebar-wrapper #sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+.sidebar-wrapper .components {
+    width: 100%;
+}
+
+.sidebar-wrapper #sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+.sidebar-wrapper #sidebar ul li a:hover {
+    cursor: pointer;
+}
+
+.sidebar-wrapper #sidebar ul li.active>a,
+.sidebar-wrapper a[aria-expanded="true"] {
+}
+
+.sidebar-wrapper a[data-toggle="collapse"] {
+    position: relative;
+}
+.sidebar-wrapper .dropdown-toggle {
+    color: #ffffff;
+}
+.sidebar-wrapper .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.sidebar-wrapper ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+}
+
+.sidebar-wrapper ul.CTAs {
+    padding: 20px;
+}
+
+.sidebar-wrapper ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.sidebar-wrapper a.article,
+.sidebar-wrapper a.article:hover {
+    color: #fff !important;
+}

@@ -1,0 +1,47 @@
+.admin-container{
+    margin-top: 100px;
+}
+.admin-container h4 {
+    color: white;
+}
+.admin-container .speaker-form .form-title{
+    color: white;
+}
+.admin-container .speaker-form .form-check{
+    color: white;
+}
+
+.admin-speakers-container {
+    margin: 20px;
+}
+.speaker-form {
+    width: 100%;
+    margin: 10px;
+    background-color: #0c2934;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.speaker-form .react-tel-input input {
+    width: 100% !important;
+}
+
+.react-bs-table-container {
+    background-color: #0c2934;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    table-layout: fixed;
+}
+
+.react-bs-table-container th, .react-bs-table-container  td {
+    color : #ffffff;
+
+}
+.custom-table td, .custom-table th {
+    overflow: hidden!important;
+    white-space: normal!important;
+    text-overflow: initial!important;
+    word-wrap: break-word!important;
+}

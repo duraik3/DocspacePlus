@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-34.000000, -2236.000000)">
+            <g id="Group-19" transform="translate(34.000000, 2230.000000)">
+                <g id="Group-16" transform="translate(0.000000, 6.000000)">
+                    <circle id="Oval" fill="#04C5A7" cx="18.5" cy="18.5" r="18.5"></circle>
+                    <g id="Group" transform="translate(7.000000, 11.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20.862069,16 L1.13793103,16 C0.509793103,16 0,15.488 0,14.8571429 L0,1.14285714 C0,0.512 0.509793103,0 1.13793103,0 L20.862069,0 C21.4902069,0 22,0.512 22,1.14285714 L22,14.8571429 C22,15.488 21.4902069,16 20.862069,16 Z" id="Stroke-1015"></path>
+                        <polyline id="Stroke-1017" points="20 0 10.9996243 7 2 0"></polyline>
+                        <polyline id="Stroke-1019" points="3 16 3 5.16666667 10.98 10.5833333 22 3"></polyline>
+                        <path d="M19,5 L19,16" id="Stroke-1021"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

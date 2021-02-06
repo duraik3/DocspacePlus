@@ -1,0 +1,33 @@
+version: "3.8"
+services:
+  frontend:
+    environemnt:
+      - REACT_APP_S3_ACESS_KEY_ID=
+      - REACT_APP_S3_SECRET_ACCESS_KEY=
+    build:
+      dockerfile: Dockerfile.local
+      context: ./docspace-react
+    image: "docspace/frontend"
+    ports:
+      - "80:80"
+  backend:
+    environment:
+      - spring_profiles_active=local
+      - SENDINBLUE_API_KEY=
+    build: ./docspace
+    image: "docspace/backend"
+    ports:
+      - "8081:8081"
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 5
+        window: 120s
+  database:
+    build: ./docspace-db/
+    environment:
+      - POSTGRES_PASSWORD=admin
+    ports:
+      - "8082:5432"
+    image: "docspace/database"

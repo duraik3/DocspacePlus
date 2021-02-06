@@ -1,0 +1,77 @@
+.login-modal {
+  border-radius: 1.6rem !important;
+}
+.login-modal .login-modal-header {
+  background-color: #01dbb9;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  /* border-bottom: 1px solid #dee2e6; */
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+.login-modal .modal-title h3 {
+  text-align: center;
+  color: white;
+  margin-top: 0.3rem;
+}
+.login-modal .login-icon {
+  float: left;
+  margin-left: 50px;
+  width: 50px;
+}
+
+.login-modal .login-modal-header button.close {
+  padding: 7px 12px;
+  opacity: 1;
+  border-radius: 1.8rem;
+  position: relative;
+  left: 25px;
+  top: -25px;
+  background-color: #01dbb9;
+  color: #ffffff;
+}
+.login-modal .login-modal-header button.close:hover {
+  opacity: 1;
+}
+.login-modal .login-modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 4rem;
+}
+.login-modal .login-modal-body .remember-check {
+  margin-top: -45px;
+  max-width: fit-content;
+}
+
+.login-modal .login-modal-body .btn-primary {
+  background-color: #01dbb9;
+  border-color: #01dbb9;
+  border-radius: 10px;
+}
+.login-modal .login-modal-body .btn-primary:active {
+  background-color: #01dbb9 !important;
+  border-color: #01dbb9 !important;
+}
+.login-modal .login-modal-body .btn-primary:hover {
+  background-color: #01dbb9;
+  border-color: #01dbb9;
+}
+.login-modal .login-modal-body .btn-primary:focus {
+  background-color: #01dbb9 !important;
+  border-color: #01dbb9 !important;
+}
+
+.login-modal .login-modal-body .btn-link {
+  color: #01dbb9;
+}
+.login-modal .login-modal-body .btn-link:active {
+  color: #01dbb9 !important;
+}
+.login-modal .login-modal-body .btn-link:hover {
+  color: #01dbb9;
+}
+.login-modal .login-modal-body .btn-link:focus {
+  color: #01dbb9 !important;
+}
